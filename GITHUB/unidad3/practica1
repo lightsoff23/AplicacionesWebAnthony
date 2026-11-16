@@ -1,0 +1,31 @@
+# UD2. Gestió d'arxius web · Pràctica G1
+**Alumne/a:** Anthony Hernandez 
+
+## 1. Variació
+- Port:
+- Projecte:
+- Adreça de la MV:
+
+## 2. Pràctica: Pràctica G0 · Preparar la MV: instal·lar Docker Engine
+amb Compose (30 min)
+(ordres i les seues eixides)
+
+Al diari: L'eixida de sudo curl -fsSL
+https://download.docker.com/linux/ubuntu/.... 
+![Captura 1](capturas/1)
+Al diari: L'eixida de sudo systemctl status docker --no-pager
+![Captura 2 docker](capturas/2.docker)
+Al diari: L'eixida de docker run --rm hello-world.![Captura 3 hello world](capturas/3.helloworld)
+
+## 3. Errors i com els he resolt
+(missatge d'error real i solució)
+
+## 4. Respostes
+Al diari: Captures de docker --version, docker compose version i hello-world.
+Pregunta: què diferència docker run de docker compose up?
+
+---Docker run sirve para ejecutar un contenedor individual, mientras que Docker Compose up permite ejecutar varios contenedores a la vez.----
+
+
+## 5. Estat final
+(eixida de docker compose ps)
